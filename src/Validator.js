@@ -5,6 +5,7 @@ class Validator extends Component {
   constructor(props) {
     super()
   }
+  //  check and validates inputs from the two password inputs
   validatePassword() {
 
     let x=document.forms["myForm"]["password"].value;
@@ -19,6 +20,8 @@ class Validator extends Component {
       }
 
   }
+
+    // apply the validatePassword function when the Submit button is clicked
 
   render() {
     return (
